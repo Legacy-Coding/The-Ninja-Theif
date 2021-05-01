@@ -28,7 +28,7 @@ body{
 .obstacle{
     width: 311px;
     height: 315px;
-    background-image: url(dragon.png);
+    background-image: url(Police.png);
     background-size: cover;
     position: absolute;
     bottom: -7px;
@@ -40,12 +40,13 @@ body{
 }
 
 .obstacleAni{
-    animation: obstacleAni 5s linear infinite;
+    animation: obstacleAni 4s linear infinite;
 }
 
 .gameOver{
     position: relative;
     top:63px;
+    color: #d9ae15;
     font-size: 53px;
     text-align: center; 
     font-family: 'Ubuntu', sans-serif;
@@ -53,12 +54,12 @@ body{
 
 #scoreCont{
     font-size: 25px;
-    color: #54212f;
+    color: #1d1f1c;
     font-weight: bold;
     position: absolute;
     right: 45px;
     top: 31px;
-    border: 2px solid black;
+    border: 5px solid whitesmoke;
     padding: 10px;
     font-family: 'Ubuntu', sans-serif;
     border-radius: 10px;
